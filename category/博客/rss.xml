@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>沫上花薇开 • Posts by &#34;博客&#34; category</title>
+        <link>http://example.com</link>
+        <description>一枚小白程序猿的记录</description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 06 Nov 2019 11:11:37 +0800</pubDate>
+        <lastBuildDate>Wed, 06 Nov 2019 11:11:37 +0800</lastBuildDate>
+        <category>端口占用</category>
+        <category>hexo</category>
+        <category>正则表达</category>
+        <category>前端基础</category>
+        <category>markDown</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2019/11/06/blog/hexo%E7%9A%84diaspora%E4%B8%BB%E9%A2%98%E7%9A%84%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/</guid>
+            <title>hexo的diaspora主题的相关操作</title>
+            <link>http://example.com/2019/11/06/blog/hexo%E7%9A%84diaspora%E4%B8%BB%E9%A2%98%E7%9A%84%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/</link>
+            <category>hexo</category>
+            <pubDate>Wed, 06 Nov 2019 11:11:37 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;gitalk配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#gitalk配置&#34;&gt;#&lt;/a&gt; gitalk 配置&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;/../../img/1.png&#34; alt=&#34;步骤-1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/../../img/2.png&#34; alt=&#34;步骤-2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/../../img/3.png&#34; alt=&#34;步骤-3.png&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2019/11/01/blog/github%E4%B8%8Ehexo/</guid>
+            <title>博客搭建</title>
+            <link>http://example.com/2019/11/01/blog/github%E4%B8%8Ehexo/</link>
+            <category>hexo</category>
+            <pubDate>Fri, 01 Nov 2019 19:16:03 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;搭建博客可以用 wordPress vuePress hexo，本站使用 hexo 搭建&lt;/p&gt;
+&lt;p&gt;wordPress vuePress hexo&lt;/p&gt;
+&lt;p&gt;参考学习博客：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2Jsb2cuaGFvamkubWUvYnVpbGQtYmxvZy13ZWJzaXRlLWJ5LWhleG8tZ2l0aHViLmh0bWw/ZnJvbT14YQ==&#34;&gt;http://blog.haoji.me/build-blog-website-by-hexo-github.html?from=xa&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;1-安装git&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-安装git&#34;&gt;#&lt;/a&gt; 1. 安装 Git&lt;/h1&gt;
+&lt;h1 id=&#34;2-安装nodejs&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-安装nodejs&#34;&gt;#&lt;/a&gt; 2. 安装 nodejs&lt;/h1&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;安装完后，打开命令行&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;node -v&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;npm -v&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;3-安装hexo&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-安装hexo&#34;&gt;#&lt;/a&gt; 3. 安装 hexo&lt;/h1&gt;
+&lt;p&gt;前面 git 和 nodejs 安装好后，就可以安装 hexo 了，你可以先创建一个文件夹 blog，然后 cd 到这个文件夹下（或者在这个文件夹下直接右键 git bash 打开）。&lt;/p&gt;
+&lt;p&gt;输入命令&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;npm install -g hexo-cli&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;用 hexo -v 查看一下版本&lt;/p&gt;
+&lt;p&gt;接下来初始化一下 hexo&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo init myblog&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;这个 myblog 可以自己取什么名字都行，然后&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cd myblog //进入这个myblog文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;npm install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;新建完成后，指定文件夹目录下有：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;node_modules: 依赖包&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;public：存放生成的页面&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;scaffolds：生成文章的一些模板&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;source：用来存放你的文章&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;themes：主题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;** _config.yml: 博客的配置文件**&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;启动服务&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo g&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;4利用git生成本机ssh-key并添加到github中&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#4利用git生成本机ssh-key并添加到github中&#34;&gt;#&lt;/a&gt; 4. 利用 Git 生成本机 SSH Key 并添加到 GitHub 中&lt;/h2&gt;
+&lt;p&gt;本地仓库和 github 之间是通过 SSH 加密传输的，所以需要先到 github 中添加你本机的 SSH Key 进行认证。&lt;/p&gt;
+&lt;p&gt;ssh，简单来讲，就是一个秘钥，其中，id_rsa 是你这台电脑的私人秘钥，不能给别人看的，id_rsa.pub 是公共秘钥，可以随便给别人看。把这个公钥放在 GitHub 上，这样当你链接 GitHub 自己的账户时，它就会根据公钥匹配你的私钥，当能够相互匹配时，才能够顺利的通过 git 上传你的文件到 GitHub 上。&lt;/p&gt;
+&lt;p&gt;回到你的 git bash 中，&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.name &amp;quot;yourname&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.email &amp;quot;youremail&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(这里的yourname输入你的GitHub用户名，youremail输入你GitHub的邮箱。这样GitHub才能知道你是不是对应它的账户。)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;检查一下你有没有输对&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config user.name&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config user.email&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;然后创建SSH,一路回车&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ssh-keygen -t rsa -C &amp;quot;youremail&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;在gitbash中，查看是否成功&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ssh -T git@github.com&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;$ cd ~/. ssh #检查本机已存在的ssh密钥&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;No such file or directory 说明你是第一次使用git。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;5将hexo部署到github&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#5将hexo部署到github&#34;&gt;#&lt;/a&gt; 5. 将 hexo 部署到 GitHub&lt;/h1&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;首先，ssh key肯定要配置好。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;其次，配置_config.yml中有关deploy的部分：&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  type: git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  repository: git@github.com:liuxianan/liuxianan.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  branch: master&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  $ hexo g&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  $ hexo d&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  发布上传很容易，一句hexo d就搞定&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  输入hexo d就会将本次有改动的代码全部提交，没有改动的不会：&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;6修改主题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#6修改主题&#34;&gt;#&lt;/a&gt; 6. 修改主题&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3RoZW1lcy8=&#34;&gt;官方主题&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pnZDgyNjIzNzcxMC9hcnRpY2xlL2RldGFpbHMvOTk2NzEwMjc=&#34;&gt;Hexo 好看的主题推荐&lt;/span&gt;&lt;/p&gt;
+ &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt; [官方主题](https://hexo.io/themes/)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; 官方主题 https://hexo.io/themes/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; 首先下载这个主题：&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; $ git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; 修改_config.yml中的theme: landscape改为theme: yilia，然后重新执行hexo g来重新生成。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; [Hexo 好看的主题推荐](https://blog.csdn.net/zgd826237710/article/details/99671027)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Indigo&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Butterfly&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Pure&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Melody&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Nexmoe&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Clover&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(git clone https://github.com/esappear/hexo-theme-clover themes/clover)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Hexo-theme-diaspora diaspora&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(git clone https://github.com/Fechin/hexo-theme-diaspora.git themes/diaspora)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Hacker&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Hiker&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;black-blue&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Cube&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Varaint&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;7hexo基本配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#7hexo基本配置&#34;&gt;#&lt;/a&gt; 7.hexo 基本配置&lt;/h1&gt;
+ &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;_config.yml&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;这里面都是一些全局配置, 冒号后面必须有一个空格，否则可能会出问题&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2019/11/01/blog/hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</guid>
+            <title>hexo基本配置</title>
+            <link>http://example.com/2019/11/01/blog/hexo%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</link>
+            <category>hexo</category>
+            <pubDate>Fri, 01 Nov 2019 19:16:03 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;hexo 官网  &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3MvY29uZmlndXJhdGlvbg==&#34;&gt;https://hexo.io/zh-cn/docs/configuration&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;网站&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#网站&#34;&gt;#&lt;/a&gt; 网站&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;参数&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;title&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;网站标题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;subtitle&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;网站副标题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;description&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;网站描述&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;keywords&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;网站的关键词。使用半角逗号  &lt;code&gt;,&lt;/code&gt;  分隔多个关键词。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;author&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;您的名字&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;language&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;网站使用的语言&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;timezone&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;网站时区。Hexo 默认使用您电脑的时区。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTGlzdF9vZl90el9kYXRhYmFzZV90aW1lX3pvbmVz&#34;&gt;时区列表&lt;/span&gt;。比如说： &lt;code&gt;America/New_York&lt;/code&gt; ,  &lt;code&gt;Japan&lt;/code&gt; , 和  &lt;code&gt;UTC&lt;/code&gt;  。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;指令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#指令&#34;&gt;#&lt;/a&gt; 指令&lt;/h1&gt;
+&lt;h2 id=&#34;init&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#init&#34;&gt;#&lt;/a&gt; init&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo init [folder]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;新建一个网站。如果没有设置  &lt;code&gt;folder&lt;/code&gt;  ，Hexo 默认在目前的文件夹建立网站。&lt;/p&gt;
+&lt;h2 id=&#34;new&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#new&#34;&gt;#&lt;/a&gt; new&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new [layout] &amp;lt;title&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;新建一篇文章。如果没有设置  &lt;code&gt;layout&lt;/code&gt;  的话，默认使用 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3MvY29uZmlndXJhdGlvbg==&#34;&gt;_config.yml&lt;/span&gt; 中的  &lt;code&gt;default_layout&lt;/code&gt;  参数代替。如果标题包含空格的话，请使用引号括起来。&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &amp;quot;post title with whitespace&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;参数&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-p&lt;/code&gt; ,  &lt;code&gt;--path&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;自定义新文章的路径&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-r&lt;/code&gt; ,  &lt;code&gt;--replace&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;如果存在同名文章，将其替换&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-s&lt;/code&gt; ,  &lt;code&gt;--slug&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;文章的 Slug，作为新文章的文件名和发布后的 URL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;默认情况下，Hexo 会使用文章的标题来决定文章文件的路径。对于独立页面来说，Hexo 会创建一个以标题为名字的目录，并在目录中放置一个  &lt;code&gt;index.md&lt;/code&gt;  文件。你可以使用  &lt;code&gt;--path&lt;/code&gt;  参数来覆盖上述行为、自行决定文件的目录：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo new page --path about/me &amp;quot;About me&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;以上命令会创建一个  &lt;code&gt;source/about/me.md&lt;/code&gt;  文件，同时 Front Matter 中的 title 为  &lt;code&gt;&amp;quot;About me&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;注意！title 是必须指定的！如果你这么做并不能达到你的目的：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo new page --path about/me&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;此时 Hexo 会创建  &lt;code&gt;source/_posts/about/me.md&lt;/code&gt; ，同时  &lt;code&gt;me.md&lt;/code&gt;  的 Front Matter 中的 title 为  &lt;code&gt;&amp;quot;page&amp;quot;&lt;/code&gt; 。这是因为在上述命令中，hexo-cli 将  &lt;code&gt;page&lt;/code&gt;  视为指定文章的标题、并采用默认的  &lt;code&gt;layout&lt;/code&gt; 。&lt;/p&gt;
+&lt;h2 id=&#34;generate&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate&#34;&gt;#&lt;/a&gt; generate&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;生成静态文件。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;选项&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-d&lt;/code&gt; ,  &lt;code&gt;--deploy&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;文件生成后立即部署网站&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-w&lt;/code&gt; ,  &lt;code&gt;--watch&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;监视文件变动&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-b&lt;/code&gt; ,  &lt;code&gt;--bail&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;生成过程中如果发生任何未处理的异常则抛出异常&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-f&lt;/code&gt; ,  &lt;code&gt;--force&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;强制重新生成文件 Hexo 引入了差分机制，如果  &lt;code&gt;public&lt;/code&gt;  目录存在，那么  &lt;code&gt;hexo g&lt;/code&gt;  只会重新生成改动的文件。 使用该参数的效果接近  &lt;code&gt;hexo clean &amp;amp;&amp;amp; hexo generate&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-c&lt;/code&gt; ,  &lt;code&gt;--concurrency&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;最大同时生成文件的数量，默认无限制&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;该命令可以简写为&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;publish&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#publish&#34;&gt;#&lt;/a&gt; publish&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo publish [layout] &amp;lt;filename&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;发表草稿。&lt;/p&gt;
+&lt;h2 id=&#34;server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#server&#34;&gt;#&lt;/a&gt; server&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;启动服务器。默认情况下，访问网址为：  &lt;code&gt;http://localhost:4000/&lt;/code&gt; 。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;选项&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-p&lt;/code&gt; ,  &lt;code&gt;--port&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;重设端口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-s&lt;/code&gt; ,  &lt;code&gt;--static&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;只使用静态文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-l&lt;/code&gt; ,  &lt;code&gt;--log&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;启动日记记录，使用覆盖记录格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;deploy&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy&#34;&gt;#&lt;/a&gt; deploy&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;部署网站。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;参数&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-g&lt;/code&gt; ,  &lt;code&gt;--generate&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;部署之前预先生成静态文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;该命令可以简写为：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;render&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#render&#34;&gt;#&lt;/a&gt; render&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo render &amp;lt;file1&amp;gt; [file2] ...&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;渲染文件。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;参数&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;-o&lt;/code&gt; ,  &lt;code&gt;--output&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;设置输出路径&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;migrate&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#migrate&#34;&gt;#&lt;/a&gt; migrate&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo migrate &amp;lt;type&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;从其他博客系统 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3MvbWlncmF0aW9u&#34;&gt;迁移内容&lt;/span&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;clean&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#clean&#34;&gt;#&lt;/a&gt; clean&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo clean&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;清除缓存文件 ( &lt;code&gt;db.json&lt;/code&gt; ) 和已生成的静态文件 ( &lt;code&gt;public&lt;/code&gt; )。&lt;/p&gt;
+&lt;p&gt;在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。&lt;/p&gt;
+&lt;h2 id=&#34;list&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#list&#34;&gt;#&lt;/a&gt; list&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo list &amp;lt;type&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;列出网站资料。&lt;/p&gt;
+&lt;h2 id=&#34;version&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#version&#34;&gt;#&lt;/a&gt; version&lt;/h2&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo version&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;显示 Hexo 版本。&lt;/p&gt;
+&lt;h2 id=&#34;选项&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#选项&#34;&gt;#&lt;/a&gt; 选项&lt;/h2&gt;
+&lt;h3 id=&#34;安全模式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安全模式&#34;&gt;#&lt;/a&gt; 安全模式&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo --safe&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在安全模式下，不会载入插件和脚本。当您在安装新插件遭遇问题时，可以尝试以安全模式重新执行。&lt;/p&gt;
+&lt;h3 id=&#34;调试模式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#调试模式&#34;&gt;#&lt;/a&gt; 调试模式&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo --debug&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在终端中显示调试信息并记录到  &lt;code&gt;debug.log&lt;/code&gt; 。当您碰到问题时，可以尝试用调试模式重新执行一次，并 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcy9uZXc=&#34;&gt;提交调试信息到 GitHub&lt;/span&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;简洁模式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#简洁模式&#34;&gt;#&lt;/a&gt; 简洁模式&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo --silent&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;隐藏终端信息。&lt;/p&gt;
+&lt;h3 id=&#34;自定义配置文件的路径&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自定义配置文件的路径&#34;&gt;#&lt;/a&gt; 自定义配置文件的路径&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;# 使用 custom.yml 代替默认的 _config.yml$ hexo server --config custom.yml# 使用 custom.yml 和 custom2.json，其中 custom2.json 优先级更高$ hexo generate --config custom.yml,custom2.json,custom3.yml&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;自定义配置文件的路径，指定这个参数后将不再使用默认的  &lt;code&gt;_config.yml&lt;/code&gt; 。&lt;br&gt;
+你可以使用一个 YAML 或 JSON 文件的路径，也可以使用逗号分隔（无空格）的多个 YAML 或 JSON 文件的路径。例如：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;# 使用 custom.yml 代替默认的 _config.yml$ hexo server --config custom.yml# 使用 custom.yml, custom2.json 和 custom3.yml，其中 custom3.yml 优先级最高，其次是 custom2.json$ hexo generate --config custom.yml,custom2.json,custom3.yml&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;当你指定了多个配置文件以后，Hexo 会按顺序将这部分配置文件合并成一个  &lt;code&gt;_multiconfig.yml&lt;/code&gt; 。如果遇到重复的配置，排在后面的文件的配置会覆盖排在前面的文件的配置。这个原则适用于任意数量、任意深度的 YAML 和 JSON 文件。&lt;/p&gt;
+&lt;h3 id=&#34;显示草稿&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#显示草稿&#34;&gt;#&lt;/a&gt; 显示草稿&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo --draft&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;显示  &lt;code&gt;source/_drafts&lt;/code&gt;  文件夹中的草稿文章。&lt;/p&gt;
+&lt;h3 id=&#34;自定义-cwd&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自定义-cwd&#34;&gt;#&lt;/a&gt; 自定义 CWD&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo --cwd /path/to/cwd&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;自定义当前工作目录（Current working directory）的路径。&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

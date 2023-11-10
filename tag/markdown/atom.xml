@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>沫上花薇开 • Posts by &#34;markdown&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2023-11-09T03:11:37.000Z</updated>
+    <category term="端口占用" />
+    <category term="hexo" />
+    <category term="正则表达" />
+    <category term="前端基础" />
+    <category term="markDown" />
+    <entry>
+        <id>http://example.com/2023/11/09/foundation/markDown/</id>
+        <title>markdown基本语法</title>
+        <link rel="alternate" href="http://example.com/2023/11/09/foundation/markDown/"/>
+        <content type="html">&lt;h3&gt;markdown基本语法&lt;/h3&gt;
+**==标题==**
+&lt;p&gt;再在 # 后加一个空格即可&lt;/p&gt;
+&lt;h6 id=&#34;六级标题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#六级标题&#34;&gt;#&lt;/a&gt; 六级标题&lt;/h6&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;# 这是一级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;## 这是二级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;### 这是三级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#### 这是四级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;##### 这是五级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;###### 这是六级标题&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;这是加粗的文字这是倾斜的文字这是斜体加粗的文字&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#这是加粗的文字这是倾斜的文字这是斜体加粗的文字&#34;&gt;#&lt;/a&gt; &lt;strong&gt;这是加粗的文字&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;这是倾斜的文字&lt;/em&gt; `&lt;br&gt;
+&lt;em&gt;&lt;strong&gt; 这是斜体加粗的文字&lt;/strong&gt;&lt;/em&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;p&gt;（三个或者三个以上的 - 或者 * 都可以）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;这是加删除线的文字&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;这是加删除线的文字&lt;/s&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;区块引用&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;好多东西需要学习&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Markdown 支持有序列表和无序列表。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;无序列表用 - + * 任何一种都可以&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Red
+&lt;ul&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Red
+&lt;ul&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;color
+&lt;ul&gt;
+&lt;li&gt;red&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;制作待办事项 To&lt;/strong&gt;-do List&lt;/mark&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 已完成的项目 1&lt;/label&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_1&#34;&gt; text&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_2&#34;&gt; 已完成的项目 1&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_3&#34;&gt; 已完成的项目 2&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_4&#34;&gt; 待办事项 1&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_5&#34;&gt; 待办事项 2&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;有序列表（数字加点，序号跟内容之间要有空格）&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;列表内容
+&lt;ol&gt;
+&lt;li&gt;rrr&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;列表内容&lt;/li&gt;
+&lt;li&gt;列表内容&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;列表嵌套&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;上一级和下一级之间敲三个空格即可&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;级无序列表内容
+&lt;ol&gt;
+&lt;li&gt;级无序列表内容&lt;br&gt;
+ 2. 级无序列表内容&lt;/li&gt;
+&lt;li&gt;级无序列表内&lt;br&gt;
+ 4. 888888&lt;br&gt;
+5. 888888&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;表格&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;表头&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;表头&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;表头&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;内容&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;内容&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;内容&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;内容&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;第二行分割表头和内容。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;- 有一个就行，为了对齐&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;文字默认居左&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-两边加：表示文字居中&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-右边加：表示文字居右&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;注：原生的语法两边都要用 | 包起来。此处省略&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;姓名&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;技能&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;排行&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;刘备&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;哭&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;大哥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;关羽&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;二哥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;张飞&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;骂&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;三弟&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;header1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;header2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;—&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;—&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;row1col1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;row1col2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;row2col1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;row2col2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;代码&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;单行代码：代码之间分别用一个反引号包起来&lt;/li&gt;
+&lt;li&gt;代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;超链接&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[超链接名](超链接地址 &amp;quot;超链接title&amp;quot;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;title可加可不加&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ppYW5zaHUuY29t&#34;&gt;简书&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2JhaWR1LmNvbQ==&#34;&gt;百度&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;用 html 语言的 a 标签代替&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2JhaWR1LmNvbSA=&#34;&gt;百度&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;图片&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;![图片alt](图片地址 &amp;#x27;&amp;#x27;图片title&amp;#x27;&amp;#x27;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;图片alt就是显示在图片下面的文字，相当于对图片内容的解释。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1089905067,1019161768&amp;amp;fm=173&amp;amp;app=49&amp;amp;f=JPEG?w=346&amp;amp;h=680&#34; alt=&#34;区块链blockchain&#34; title=&#34;区块链&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;高效绘制 流程图、序列图、甘特图、表格&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
+&lt;h3 id=&#34;流程图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#流程图&#34;&gt;#&lt;/a&gt; 流程图&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;graph TD&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   A[Christmas] --&amp;gt;B(Go shopping)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   B --&amp;gt; C&amp;#123;Let me think&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   C --&amp;gt; |One| D[Laptop]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   C --&amp;gt; |Two| E[iphone]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   C --&amp;gt; |Three| F[car]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;序列图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#序列图&#34;&gt;#&lt;/a&gt; 序列图&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sequenceDiagram&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   loop every day&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      Alice-&amp;gt;&amp;gt;John:Hello John, how are you?&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      John--&amp;gt;&amp;gt;Alice: Great!&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   end&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;甘特图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#甘特图&#34;&gt;#&lt;/a&gt; 甘特图&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;gantt&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;dateFormat YYYY-MM-DD&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;title 产品计划表&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;section 初期阶段&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;明确需求: 2016-03-01, 10d&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;section 中期阶段&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;更进开发: 2016-03-11, 15d&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;section 后期阶段&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;走查测试: 2016-03-20, 9d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;表格&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#表格&#34;&gt;#&lt;/a&gt; 表格&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Item&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Value&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Qty&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Computer_PC&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;168900USD&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Phone&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;12USD&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Pipe&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;1USD&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12354785583&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;书写数学公式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#书写数学公式&#34;&gt;#&lt;/a&gt; 书写数学公式&lt;/h3&gt;
+&lt;h2 id=&#34;mathamatical-fromula-y-x2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mathamatical-fromula-y-x2&#34;&gt;#&lt;/a&gt; MAthamatical fromula  &lt;code&gt;$y = x^2$&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Inline math:``&lt;/p&gt;
+</content>
+        <category term="前端基础" />
+        <category term="markDown" />
+        <updated>2023-11-09T03:11:37.000Z</updated>
+    </entry>
+</feed>

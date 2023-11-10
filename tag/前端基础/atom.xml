@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>沫上花薇开 • Posts by &#34;前端基础&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2023-11-09T03:11:37.000Z</updated>
+    <category term="端口占用" />
+    <category term="hexo" />
+    <category term="正则表达" />
+    <category term="前端基础" />
+    <category term="markDown" />
+    <entry>
+        <id>http://example.com/2023/11/09/foundation/markDown/</id>
+        <title>markdown基本语法</title>
+        <link rel="alternate" href="http://example.com/2023/11/09/foundation/markDown/"/>
+        <content type="html">&lt;h3&gt;markdown基本语法&lt;/h3&gt;
+**==标题==**
+&lt;p&gt;再在 # 后加一个空格即可&lt;/p&gt;
+&lt;h6 id=&#34;六级标题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#六级标题&#34;&gt;#&lt;/a&gt; 六级标题&lt;/h6&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;# 这是一级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;## 这是二级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;### 这是三级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#### 这是四级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;##### 这是五级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;###### 这是六级标题&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;这是加粗的文字这是倾斜的文字这是斜体加粗的文字&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#这是加粗的文字这是倾斜的文字这是斜体加粗的文字&#34;&gt;#&lt;/a&gt; &lt;strong&gt;这是加粗的文字&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;这是倾斜的文字&lt;/em&gt; `&lt;br&gt;
+&lt;em&gt;&lt;strong&gt; 这是斜体加粗的文字&lt;/strong&gt;&lt;/em&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;p&gt;（三个或者三个以上的 - 或者 * 都可以）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;这是加删除线的文字&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;这是加删除线的文字&lt;/s&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;区块引用&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;好多东西需要学习&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Markdown 支持有序列表和无序列表。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;无序列表用 - + * 任何一种都可以&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Red
+&lt;ul&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Red
+&lt;ul&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;color
+&lt;ul&gt;
+&lt;li&gt;red&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;制作待办事项 To&lt;/strong&gt;-do List&lt;/mark&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 已完成的项目 1&lt;/label&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_1&#34;&gt; text&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_2&#34;&gt; 已完成的项目 1&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_3&#34;&gt; 已完成的项目 2&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_4&#34;&gt; 待办事项 1&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_5&#34;&gt; 待办事项 2&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;有序列表（数字加点，序号跟内容之间要有空格）&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;列表内容
+&lt;ol&gt;
+&lt;li&gt;rrr&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;列表内容&lt;/li&gt;
+&lt;li&gt;列表内容&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;列表嵌套&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;上一级和下一级之间敲三个空格即可&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;级无序列表内容
+&lt;ol&gt;
+&lt;li&gt;级无序列表内容&lt;br&gt;
+ 2. 级无序列表内容&lt;/li&gt;
+&lt;li&gt;级无序列表内&lt;br&gt;
+ 4. 888888&lt;br&gt;
+5. 888888&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;表格&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;表头&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;表头&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;表头&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;内容&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;内容&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;内容&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;内容&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;第二行分割表头和内容。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;- 有一个就行，为了对齐&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;文字默认居左&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-两边加：表示文字居中&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-右边加：表示文字居右&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;注：原生的语法两边都要用 | 包起来。此处省略&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;姓名&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;技能&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;排行&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;刘备&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;哭&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;大哥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;关羽&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;打&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;二哥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;张飞&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;骂&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;三弟&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;header1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;header2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;—&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;—&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;row1col1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;row1col2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;row2col1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;row2col2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;代码&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;单行代码：代码之间分别用一个反引号包起来&lt;/li&gt;
+&lt;li&gt;代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;&lt;mark&gt;超链接&lt;/mark&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;[超链接名](超链接地址 &amp;quot;超链接title&amp;quot;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;title可加可不加&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ppYW5zaHUuY29t&#34;&gt;简书&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2JhaWR1LmNvbQ==&#34;&gt;百度&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;用 html 语言的 a 标签代替&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2JhaWR1LmNvbSA=&#34;&gt;百度&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;图片&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;![图片alt](图片地址 &amp;#x27;&amp;#x27;图片title&amp;#x27;&amp;#x27;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;图片alt就是显示在图片下面的文字，相当于对图片内容的解释。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1089905067,1019161768&amp;amp;fm=173&amp;amp;app=49&amp;amp;f=JPEG?w=346&amp;amp;h=680&#34; alt=&#34;区块链blockchain&#34; title=&#34;区块链&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;&lt;strong&gt;高效绘制 流程图、序列图、甘特图、表格&lt;/strong&gt;&lt;/mark&gt;&lt;/p&gt;
+&lt;h3 id=&#34;流程图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#流程图&#34;&gt;#&lt;/a&gt; 流程图&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;graph TD&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   A[Christmas] --&amp;gt;B(Go shopping)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   B --&amp;gt; C&amp;#123;Let me think&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   C --&amp;gt; |One| D[Laptop]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   C --&amp;gt; |Two| E[iphone]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   C --&amp;gt; |Three| F[car]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;序列图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#序列图&#34;&gt;#&lt;/a&gt; 序列图&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sequenceDiagram&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   loop every day&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      Alice-&amp;gt;&amp;gt;John:Hello John, how are you?&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;      John--&amp;gt;&amp;gt;Alice: Great!&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   end&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;甘特图&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#甘特图&#34;&gt;#&lt;/a&gt; 甘特图&lt;/h3&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;gantt&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;dateFormat YYYY-MM-DD&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;title 产品计划表&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;section 初期阶段&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;明确需求: 2016-03-01, 10d&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;section 中期阶段&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;更进开发: 2016-03-11, 15d&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;section 后期阶段&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;走查测试: 2016-03-20, 9d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;表格&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#表格&#34;&gt;#&lt;/a&gt; 表格&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Item&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Value&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Qty&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Computer_PC&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;168900USD&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Phone&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;12USD&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Pipe&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;1USD&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12354785583&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;书写数学公式&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#书写数学公式&#34;&gt;#&lt;/a&gt; 书写数学公式&lt;/h3&gt;
+&lt;h2 id=&#34;mathamatical-fromula-y-x2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mathamatical-fromula-y-x2&#34;&gt;#&lt;/a&gt; MAthamatical fromula  &lt;code&gt;$y = x^2$&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Inline math:``&lt;/p&gt;
+</content>
+        <category term="前端基础" />
+        <category term="markDown" />
+        <updated>2023-11-09T03:11:37.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2022/11/09/foundation/formula/</id>
+        <title>数学公式显示</title>
+        <link rel="alternate" href="http://example.com/2022/11/09/foundation/formula/"/>
+        <content type="html">&lt;p&gt;使用 KaTeX 在文章内添加数学公式，需要在 Front-matter 中添加 math: true：&lt;/p&gt;
+&lt;p&gt;行内公式：&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msqrt&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/msqrt&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\sqrt {3x-1}+(1+x)^2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.04em;vertical-align:-0.1744em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord sqrt&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8656em;&#34;&gt;&lt;span class=&#34;svg-align&#34; style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;padding-left:0.833em;&#34;&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.8256em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;hide-tail&#34; style=&#34;min-width:0.853em;height:1.08em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;400em&#39; height=&#39;1.08em&#39; viewBox=&#39;0 0 400000 1080&#39; preserveAspectRatio=&#39;xMinYMin slice&#39;&gt;&lt;path d=&#39;M95,702
+c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
+c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
+c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
+s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
+c69,-144,104.5,-217.7,106.5,-221
+l0 -0
+c5.3,-9.3,12,-14,20,-14
+H400000v40H845.2724
+s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
+c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
+M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.1744em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.0641em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8141em;&#34;&gt;&lt;span style=&#34;top:-3.063em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;独立块显示：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mtable rowspacing=&#34;0.16em&#34; columnalign=&#34;center&#34; columnspacing=&#34;1em&#34;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∇&lt;/mi&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;B&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mfrac&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∂&lt;/mi&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;E&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∂&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;/mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mfrac&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;j&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∇&lt;/mi&gt;&lt;mo&gt;⋅&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;E&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mi&gt;ρ&lt;/mi&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∇&lt;/mi&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;E&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mfrac&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mfrac&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∂&lt;/mi&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;B&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∂&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mn mathvariant=&#34;bold&#34;&gt;0&lt;/mn&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;∇&lt;/mi&gt;&lt;mo&gt;⋅&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi mathvariant=&#34;bold&#34;&gt;B&lt;/mi&gt;&lt;mo&gt;⃗&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\begin {array}{c}
+
+\nabla \times \vec {\mathbf {B}} -\, \frac1c\, \frac {\partial\vec {\mathbf {E}}}{\partial t} &amp;amp;
+= \frac {4\pi}{c}\vec {\mathbf {j}}    \nabla \cdot \vec {\mathbf {E}} &amp;amp; = 4 \pi \rho \\
+
+\nabla \times \vec {\mathbf {E}}\, +\, \frac1c\, \frac {\partial\vec {\mathbf {B}}}{\partial t} &amp;amp; = \vec {\mathbf {0}} \\
+
+\nabla \cdot \vec {\mathbf {B}} &amp;amp; = 0
+
+\end {array}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:4.1939em;vertical-align:-1.8469em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mtable&#34;&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;col-align-c&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:2.3469em;&#34;&gt;&lt;span style=&#34;top:-4.3469em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.0724em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;∇&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;×&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;B&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2551em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.1522em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8451em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;c&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.0724em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34; style=&#34;margin-right:0.05556em;&#34;&gt;∂&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34; style=&#34;margin-right:0.05556em;&#34;&gt;∂&lt;/span&gt;&lt;span class=&#34;mord accent mtight&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691em;&#34;&gt;&lt;span style=&#34;top:-2.714em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.714em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf mtight&#34;&gt;E&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.9691em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.714em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.1522em;&#34;&gt;&lt;span class=&#34;overlay mtight&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.9146em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.0724em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;∇&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;×&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;E&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2551em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.1522em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8451em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;c&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.1667em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.0724em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34; style=&#34;margin-right:0.05556em;&#34;&gt;∂&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34; style=&#34;margin-right:0.05556em;&#34;&gt;∂&lt;/span&gt;&lt;span class=&#34;mord accent mtight&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691em;&#34;&gt;&lt;span style=&#34;top:-2.714em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.714em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf mtight&#34;&gt;B&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.9691em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.714em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.1522em;&#34;&gt;&lt;span class=&#34;overlay mtight&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-1.5854em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.0724em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;∇&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;⋅&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;B&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2551em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.1522em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.8469em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;col-align-c&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:2.3469em;&#34;&gt;&lt;span style=&#34;top:-4.3469em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.0724em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8451em;&#34;&gt;&lt;span style=&#34;top:-2.655em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;c&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.394em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.345em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9774em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;j&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2634em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.2355em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.1944em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;∇&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;⋅&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9691em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;E&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2551em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.1522em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-2.9146em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.0724em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9274em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathbf&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.2134em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.2355em;&#34;&gt;&lt;span class=&#34;overlay&#34; style=&#34;height:0.714em;width:0.471em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#39;0.471em&#39; height=&#39;0.714em&#39; style=&#39;width:0.471em&#39; viewBox=&#39;0 0 471 714&#39; preserveAspectRatio=&#39;xMinYMin&#39;&gt;&lt;path d=&#39;M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-1.5854em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.0724em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.8469em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;col-align-c&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:2.3469em;&#34;&gt;&lt;span style=&#34;top:-4.3469em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.0724em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;ρ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;arraycolsep&#34; style=&#34;width:0.5em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="hexo" />
+        <category term="前端基础" />
+        <updated>2022-11-09T03:11:37.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2022/11/09/foundation/Hexo/</id>
+        <title>hexo 标签</title>
+        <link rel="alternate" href="http://example.com/2022/11/09/foundation/Hexo/"/>
+        <content type="html">&lt;p&gt;links（链接块）&lt;br&gt;
+此标签用于以富媒体形式表现某链接，可用于友链、网站分享和功能合集等。&lt;/p&gt;
+&lt;p&gt;配置格式如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;site: # 主标题&lt;br&gt;
+ owner: # 站点所有者 (选填)&lt;br&gt;
+ url: # 站点链接&lt;br&gt;
+ desc: # 站点描述 (选填)&lt;br&gt;
+ image: # 站点图像 (选填)&lt;br&gt;
+ color: # 站点颜色 (选填)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;color：需要使用双引号包裹，值为大写的 16 进制颜色代码。&lt;/p&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;/div&gt;
+&lt;h1 id=&#34;path为一个yaml文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#path为一个yaml文件&#34;&gt;#&lt;/a&gt; path 为一个 yaml 文件&lt;/h1&gt;
+
+</content>
+        <category term="hexo" />
+        <category term="前端基础" />
+        <updated>2022-11-09T03:11:37.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2022/11/09/foundation/quiz/</id>
+        <title>quiz(练习题)</title>
+        <link rel="alternate" href="http://example.com/2022/11/09/foundation/quiz/"/>
+        <content type="html">&lt;p&gt;在使用此功能前，需要在 Front-matter 里添加 quiz: true，例如：&lt;/p&gt;
+&lt;p&gt;单选题&lt;br&gt;
+有 1-n 个待选项且只有一个正确选项的练习题，格式如下&lt;/p&gt;
+&lt;ol&gt;
+&lt;li class=&#34;quiz&#34;&gt;题目&lt;span class=&#34;gap&#34;&gt;&lt;/span&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;选项&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;正确选项&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;作用如下：&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt;1.：题号，建议使用。&lt;/summary&gt;&lt;div&gt;
+&lt;details&gt;&lt;summary&gt;[]{.gap}：题目的挖空处，会渲染为横线（可选）。&lt;/summary&gt;&lt;div&gt;
+&lt;details&gt;&lt;summary&gt;{.correct}：题目的正确选项。&lt;/summary&gt;&lt;div&gt;
+&lt;details&gt;&lt;summary&gt;{.options}：选项列表的结束处。&lt;/summary&gt;&lt;div&gt;
+&lt;ol&gt;
+&lt;li class=&#34;quiz&#34;&gt;以下选项正确的是&lt;span class=&#34;gap&#34;&gt;&lt;/span&gt;。
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;这是选项 A&lt;/li&gt;
+&lt;li&gt;这是选项 B&lt;/li&gt;
+&lt;li&gt;这是选项 C&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;这是选项 D (正确答案)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;多选题&lt;br&gt;
+有 2-n 个待选项且有多个正确选项的练习题，格式如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li class=&#34;quiz multi&#34;&gt;题目
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;选项&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;正确选项&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;正确选项&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;这里是 A 选项的注解&lt;/li&gt;
+&lt;li&gt;这里是 B 选项的注解&lt;/li&gt;
+&lt;li&gt;这里是 C 选项的注解&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;作用如下：&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt;1.：题号，建议使用。&lt;/summary&gt;&lt;div&gt;
+&lt;details&gt;&lt;summary&gt;{.correct}：题目的正确选项。&lt;/summary&gt;&lt;div&gt;
+&lt;details&gt;&lt;summary&gt;{.options}：选项列表的结束处（使用缩进控制）。&lt;/summary&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;/div&gt;&lt;/details&gt;
+</content>
+        <category term="hexo" />
+        <category term="前端基础" />
+        <updated>2022-11-09T03:11:37.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2022/11/09/foundation/md/MD/</id>
+        <title>MD 标签</title>
+        <link rel="alternate" href="http://example.com/2022/11/09/foundation/md/MD/"/>
+        <content type="html">&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;文章内嵌标签&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# title：文章标题。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# date：文章发布时间。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# comment：是否关闭文章评论。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# sticky：当设置为 true 时此篇文章置顶，如果置顶多篇文章按照发布时间倒序排列，不分页。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# tags：文章标签。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# cover：文章轮播图（覆盖全局）文章封面。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# audio：文章背景音乐（覆盖全局）当设置为 false 时关闭背景音乐。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;title: 文章标题&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;date: 文章发布的时间&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;comment: false   # 关闭本文章评论&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sticky  : true   # 文章是否置顶&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;tags:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;- 文章标签1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;- 文章标签2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;categories:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    - [计算机科学, Linux]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cover: 文章顶部和文章介绍图(将覆盖文章主页轮播图)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;audio:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  - https://music.163.com/song?id=1387098940&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;audio: false&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="hexo" />
+        <category term="前端基础" />
+        <updated>2022-11-09T03:11:37.000Z</updated>
+    </entry>
+</feed>
